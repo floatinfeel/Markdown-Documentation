@@ -12,23 +12,26 @@ If the reader is not familiar with **_command line_**, reader can uses       [Gi
 
 The way to install git on Linux are:
 
-   * ###### Install Git Package by Terminal
+   - #### Install Git Package by Terminal
    <p> First, reader need to opens the terminal for download the Git package by writing this code down below: </p>
 
 ````
-    {
-        **sudo apt install git**
-    }
+    
+    sudo apt install git
+   
 ````
- <p>
     or 
-</p>
 
 ````
-    {
-        **sudo apt-get install git**
-    }
+    sudo apt-get install git
+
 ````
+
+<p> After that, try checking the installed version with the command:</p>
+
+```
+    git --version
+```
 
 
 
