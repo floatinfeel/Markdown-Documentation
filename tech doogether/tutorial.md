@@ -1,6 +1,6 @@
 # How to Install or Setup and Initialize Git in any Project with Markdown Format. 
 
-If the reader is not familiar with **_command line_**, reader can uses       [GitHub Desktop](https://desktop.github.com)  to create and manage a Git repository without using the command line.
+If the readers is not familiar with **_command line_**, readers can use       [GitHub Desktop](https://desktop.github.com)  to create and manage a git repository without using the command line.
 
 - ## Installation and Setting up Git
 <p> This `step` will be devided in to Two parts: </p>
@@ -10,12 +10,12 @@ If the reader is not familiar with **_command line_**, reader can uses       [Gi
 
     - ##### How to Install Git on Linux
 
-    <p> The first thing reader need to opens the terminal for download the Git package by writing this code down below: </p>
+    <p> The first thing that readers need to do is open the terminal for download the git package by writing this code down below: </p>
 
     ````
         sudo apt install git
     ````
-    <p> or, reader can uses another way as down below: </p> 
+    <p> or, readers can use another way as down below: </p> 
 
     ````
         sudo apt-get install git
@@ -26,14 +26,14 @@ If the reader is not familiar with **_command line_**, reader can uses       [Gi
     ```
         git --version
     ```
-    <p> as reader can see, if there is a detail version in the terminal, it mean that Git has successfully installed on the computer. </p>
+    <p> as readers can see, if there is a detail version in the terminal, it mean that git has successfully installed on the computer. </p>
 
     ![git version](versions.png)
 
     - ##### Initial Configuration Github Account
 
         <p>
-            There are several configurations that need to be prepared before starting using Git, such as name and email.
+            There are several configurations that need to be prepared before starting using git, such as name and email.
         </p>
 
         <p>
@@ -59,7 +59,7 @@ If the reader is not familiar with **_command line_**, reader can uses       [Gi
 
         ![git config](config.png)
 
-        <p> After reader has successfully install and config github, then the next step is initialize git in any git project repository.</p>
+        <p> After readers has successfully install and config github, then the next step is initialize git in any git project repository.</p>
     
 - ## Initialize git in any git project repository
 
@@ -71,7 +71,7 @@ If the reader is not familiar with **_command line_**, reader can uses       [Gi
         git init directory-name
     ````
     
-    <p>That command will create and initialize a directory named `directory-name`. If the directory already exists, then Git will initialize it in that directory. The git init command will create a directory called .git in our project. This directory is used by Git as a database to store our changes. </p>
+    <p>That command will create and initialize a directory named `directory-name`. If the directory already exists, then git will initialize it in that directory. The git init command will create a directory called .git in our project. This directory is used by git as a database to store our changes. </p>
 
     - ##### The other way for initialize git repository
 
