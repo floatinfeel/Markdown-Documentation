@@ -30,7 +30,7 @@ If the reader is not familiar with **_command line_**, reader can uses       [Gi
 
     ![git version](versions.png)
 
-    - ##### Initial Configuration
+    - ##### Initial Configuration Github Account
 
         <p>
             There are several configurations that need to be prepared before starting using Git, such as name and email.
@@ -59,9 +59,33 @@ If the reader is not familiar with **_command line_**, reader can uses       [Gi
 
         ![git config](config.png)
 
-        <p> After reader has successfully install and config github, then the writer will go to the next step.</p>
+        <p> After reader has successfully install and config github, then the next step is initialize git in any git project repository.</p>
     
-- ## initialize git in any git project repository
+- ## Initialize git in any git project repository
+
+    - ##### Initialize git repository
+
+    <p>Initialize git in repository can be done by the following command below:</p>
+
+    ````
+        git init directory-name
+    ````
+    
+    <p>That command will create and initialize a directory named `directory-name`. If the directory already exists, then Git will initialize it in that directory. The git init command will create a directory called .git in our project. This directory is used by Git as a database to store our changes. </p>
+
+    - ##### The other way for initialize git repository
+
+    <p> The following command will create and initialize a repository in the current directory (working directory). 
+    </p>
+
+    ````
+        git init .
+    ````
+
+    <p> A period (.) Means that git will create and initialize a repository in the current working directory. </p>
+
+
+
 
 
 
